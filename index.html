@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <button class="btn new-game"> New Game </button>
+            <mark class="hint">Choose between 1 & 20</mark>
+        </div>
+        <div class="title">
+            Guess the Number
+        </div>
+        <div class="secret-number">
+            <span class="number">?</span>
+        </div>
+        <div class="input-number-message-holder">
+            <div class="input-number">
+                <div>
+                    <input type="number" class="number-input">
+                    <button class="btn check">Check !</button>
+                </div>
+            </div>
+            <div class="message-score-holder">
+                <div class="message">Start Guessing...</div>
+                <div class="score">
+                    <p>🏁 Score: <span class="current-score">20</span></p>
+                    <p>🥇 High Score: <span class="high-score">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

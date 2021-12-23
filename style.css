@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+  /* background-image: url("https://i.pinimg.com/originals/87/d6/f3/87d6f33f508e40a500e065aa4d7a9239.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+.container {
+  width: 550px;
+  height: 550px;
+  padding: 1em;
+  border-radius: 8px;
+  background: rgba(155, 155, 155, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px;
+}
+.nav,
+.title,
+.secret-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  height: 10%;
+  justify-content: space-between;
+}
+.btn {
+  all: unset;
+  border: 1px solid #192a56;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #192a56;
+  color: white;
+}
+
+.hint {
+  padding: 6px;
+}
+.title {
+  font-size: 2.2em;
+  height: 20%;
+  font-weight: 800;
+}
+.secret-number {
+  height: 30%;
+  margin: 10px;
+}
+.secret-number > .number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  /* text-align: center; */
+  width: 80px;
+  height: 60px;
+  border-style: dashed;
+}
+
+.input-number-message-holder {
+  display: flex;
+  align-items: center;
+  height: 35%;
+}
+.message-score-holder {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 50%;
+}
+.input-number {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+input {
+  padding: 14px 5px;
+  text-align: center;
+  font-size: 2em;
+  width: 50%;
+  margin: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+.message {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.score {
+  font-size: 1.1em;
+}
